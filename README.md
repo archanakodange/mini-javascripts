@@ -11,3 +11,5 @@ Mini projects in javascript
 3. A [Review carousel](https://archanakodange.github.io/mini-javascripts/counter/) from this [John Smilga tutorial](https://www.youtube.com/watch?v=3PHXvlpOkf4&t=2645s)
 
 4. [Sale countdown](https://archanakodange.github.io/mini-javascripts/countdown-timer/)
+
+5. [Cafe Website Landing Page](https://archanakodange.github.io/mini-javascripts/video-background/) with video background and menu side panel
