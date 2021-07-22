@@ -2,17 +2,45 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Cafe Website Landing Page</title>
     <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-    <video playsinline autoplay muted loop poster="3703474.jpg" id="bgvid">
-        <source src="3703474.webm" type="video/webm">
-        <source src="3703474.mp4" type="video/mp4">
-    </video>
-    <main>
-        <header><h1>Explore</h1></header>
-    </main>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Coffee House</h2>
+        </header>
+        <video playsinline autoplay muted loop poster="img/coffee-video.jpg" id="bgvideo">
+            <source src="img/coffee-video.mp4" type="video/mp4">
+            <source src="img/coffee-video.webm" type="video/webm">
+        </video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h3>Enjoy Fresh</h3>
+            <h2>Coffee</h2>
+            <h3>Experience</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dolores magni accusamus. 
+                Similique placeat cumque aut corporis amet fugiat esse.</p>
+            <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="#"><img src="img/facebook.png"></a></li>
+            <li><a href="#"><img src="img/twitter.png"></a></li>
+            <li><a href="#"><img src="img/instagram.png"></a></li>
+        </ul>
+        <div class="control" title="pause"></div>
+    </section>
+    <div class="toggle"></div>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    
     <script src="app.js" language="javascript"></script>
 </body>
 </html>
